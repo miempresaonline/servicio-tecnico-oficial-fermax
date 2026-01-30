@@ -14,7 +14,7 @@ export default function StickyContactBar() {
                 aria-label="Contactar por WhatsApp ahora"
             >
                 <MessageCircle className="h-7 w-7" aria-hidden="true" />
-                <span className="text-sm font-bold uppercase tracking-wide">Contactar por WhatsApp</span>
+                <span className="text-sm font-bold uppercase tracking-wide">Chatea por WhatsApp</span>
             </a>
         </nav>
     );

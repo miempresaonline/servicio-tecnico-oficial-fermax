@@ -16,13 +16,13 @@ export default function AuthoritySection() {
 
                     <div className="absolute -top-6 -right-6 bg-orange-500 text-white p-6 rounded-xl shadow-lg transform rotate-3">
                         <span className="block text-3xl font-bold">5 Años</span>
-                        <span className="text-xs uppercase font-bold tracking-wider">De Garantía en DUOX PLUS</span>
+                        <span className="text-xs uppercase font-bold tracking-wider">de Cobertura en DUOX PLUS</span>
                     </div>
                 </div>
 
                 <div className="space-y-8">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-                        ¿Por qué elegir un Instalador Certificado?
+                        ¿Motivos para seleccionar un Técnico Acreditado?
                     </h2>
 
                     <div className="space-y-6">
@@ -31,9 +31,9 @@ export default function AuthoritySection() {
                                 <CheckCircle2 className="w-6 h-6 text-fermax" />
                             </div>
                             <div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-2">Recambios Originales Garantizados</h3>
+                                <h3 className="text-xl font-bold text-gray-900 mb-2">Piezas Genuinas Aseguradas</h3>
                                 <p className="text-gray-600">
-                                    Solo utilizamos piezas originales Fermax. Esto asegura la compatibilidad total y extiende la vida útil de su instalación.
+                                    Únicamente empleamos componentes auténticos Fermax. Esto garantiza la total integración y prolonga la duración de su sistema.
                                 </p>
                             </div>
                         </div>
@@ -43,9 +43,9 @@ export default function AuthoritySection() {
                                 <CheckCircle2 className="w-6 h-6 text-fermax" />
                             </div>
                             <div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-2">Formación Técnica Actualizada</h3>
+                                <h3 className="text-xl font-bold text-gray-900 mb-2">Capacitación Técnica Reciente</h3>
                                 <p className="text-gray-600">
-                                    Conocemos a fondo los últimos sistemas como DUOX PLUS y MEET. No experimentamos con su instalación, vamos a tiro hecho.
+                                    Dominamos a la perfección los sistemas más novedosos como DUOX PLUS y MEET. No improvisamos en su instalación, actuamos con certeza.
                                 </p>
                             </div>
                         </div>
@@ -55,9 +55,9 @@ export default function AuthoritySection() {
                                 <CheckCircle2 className="w-6 h-6 text-fermax" />
                             </div>
                             <div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-2">Oficialidad y Confianza</h3>
+                                <h3 className="text-xl font-bold text-gray-900 mb-2">Formalidad y Seguridad</h3>
                                 <p className="text-gray-600">
-                                    Somos una empresa local de Picassent con más de 15 años de trayectoria. "Empresa Clasificada" y Partner Oficial.
+                                    Somos una compañía de Picassent con más de 15 años de historia. "Empresa Clasificada" y Socio Oficial.
                                 </p>
                             </div>
                         </div>

@@ -8,9 +8,9 @@ export default {
         extend: {
             colors: {
                 fermax: {
-                    DEFAULT: '#002E5F', // Fermax Brand Blue
-                    light: '#004080',
-                    dark: '#001a36',
+                    DEFAULT: '#F02C7C', // Updated Brand Color
+                    light: '#F85A9B',   // Lighter shade
+                    dark: '#BE0050',    // Darker shade
                 }
             },
             fontFamily: {

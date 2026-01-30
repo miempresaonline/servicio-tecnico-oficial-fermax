@@ -2,10 +2,10 @@ import { MapPin } from 'lucide-react';
 
 const coverageZones = [
     {
-        name: "Provincia de Valencia",
+        name: "Región de Valencia",
         locations: ["Valencia Capital", "Picassent", "Torrent", "Paiporta", "Silla", "Alcàsser", "Catarroja", "Albal", "Beniparrell", "Poblaciones de toda la provincia"],
-        color: "bg-blue-100 text-blue-800",
-        borderColor: "border-blue-200"
+        color: "bg-pink-100 text-pink-800",
+        borderColor: "border-pink-200"
     }
 ];
 
@@ -15,16 +15,16 @@ export default function LocalCoverage() {
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        Zonas de Cobertura y Desplazamiento
+                        Áreas de Servicio y Movilidad
                     </h2>
                     <p className="text-lg text-gray-600">
-                        Prestamos servicio técnico oficial en toda la provincia de Valencia.
+                        Ofrecemos asistencia técnica autorizada en toda la provincia valenciana.
                     </p>
                 </div>
 
-                <div className="bg-white rounded-2xl p-8 border border-blue-100 shadow-sm">
+                <div className="bg-white rounded-2xl p-8 border border-pink-100 shadow-sm">
                     <div className="inline-block px-4 py-2 rounded-full text-sm font-bold mb-8 bg-fermax/10 text-fermax">
-                        Provincia de Valencia
+                        Región de Valencia
                     </div>
 
                     <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-4 gap-x-8">
@@ -44,7 +44,7 @@ export default function LocalCoverage() {
                         ))}
                         <li className="flex items-center gap-2 text-fermax font-semibold italic">
                             <MapPin className="w-4 h-4" />
-                            <span>Y toda la provincia...</span>
+                            <span>Y el resto de la provincia...</span>
                         </li>
                     </ul>
                 </div>

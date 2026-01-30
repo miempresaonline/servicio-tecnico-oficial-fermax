@@ -18,16 +18,16 @@ export default function Hero() {
                 >
                     <div className="inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full border border-white/20">
                         <ShieldCheck className="w-5 h-5 text-green-400" />
-                        <span className="text-sm font-semibold tracking-wide">Servicio Técnico Certificado</span>
+                        <span className="text-sm font-semibold tracking-wide">Asistencia Técnica Homologada</span>
                     </div>
 
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-balance">
-                        Servicio Técnico Oficial <span className="text-blue-200">Fermax Valencia</span>
+                        Servicio Técnico Oficial <span className="text-pink-200">Fermax Valencia</span>
                     </h1>
 
-                    <p className="text-lg md:text-xl text-blue-100 max-w-lg leading-relaxed">
-                        ¿Videoportero averiado? Reparamos en el día con repuestos originales.
-                        Sin intermediarios, trato directo con el técnico.
+                    <p className="text-lg md:text-xl text-pink-100 max-w-lg leading-relaxed">
+                        ¿Problemas con tu videoportero? Realizamos reparaciones en el mismo día utilizando piezas genuinas.
+                        Trato directo, sin intermediarios.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -38,12 +38,12 @@ export default function Hero() {
                             className="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#128C7E] text-white font-bold py-4 px-8 rounded-lg transform transition-all hover:scale-105 shadow-lg shadow-green-900/20"
                         >
                             <Phone className="w-6 h-6" />
-                            Contactar por WhatsApp
+                            Comunícate por WhatsApp
                         </a>
 
                         <div className="flex items-center gap-3 text-sm font-medium bg-fermax-dark/50 px-6 py-4 rounded-lg border border-white/10">
                             <Clock className="w-5 h-5 text-yellow-400" />
-                            <span>Respuesta en &lt; 90 minutos</span>
+                            <span>Contestamos en &lt; 1.5 horas</span>
                         </div>
                     </div>
                 </motion.div>
@@ -68,7 +68,7 @@ export default function Hero() {
                     {/* Float Element: 15 Years Experience */}
                     <div className="absolute -bottom-6 -left-6 bg-white text-fermax p-6 rounded-xl shadow-xl border border-gray-100 max-w-xs">
                         <p className="text-4xl font-bold mb-1">15+</p>
-                        <p className="text-sm font-medium text-gray-600 uppercase tracking-wider">Años de experiencia reparando sistemas Fermax</p>
+                        <p className="text-sm font-medium text-gray-600 uppercase tracking-wider">Más de una década y media arreglando equipos Fermax</p>
                     </div>
                 </motion.div>
             </div>

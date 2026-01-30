@@ -4,7 +4,7 @@ export default function SEOHead() {
     const schemaData = {
         "@context": "https://schema.org",
         "@type": ["LocalBusiness", "Electrician", "ProfessionalService"],
-        "name": "Video Electric Valencia - Servicio Técnico Certificado Fermax",
+        "name": "Video Electric Valencia - Asistencia Técnica Fermax Homologada",
         "image": "https://videoelectricvalencia.es/fermax-van.jpg", // Placeholder
         "telephone": "+34659767258",
         "url": "https://videoelectricvalencia.es",
@@ -54,21 +54,21 @@ export default function SEOHead() {
                     "@type": "Offer",
                     "itemOffered": {
                         "@type": "Service",
-                        "name": "Reparación de Videoporteros Fermax"
+                        "name": "Arreglo de Videoporteros Fermax"
                     }
                 },
                 {
                     "@type": "Offer",
                     "itemOffered": {
                         "@type": "Service",
-                        "name": "Instalación de Controles de Acceso DUOX PLUS"
+                        "name": "Montaje de Control de Accesos DUOX PLUS"
                     }
                 },
                 {
                     "@type": "Offer",
                     "itemOffered": {
                         "@type": "Service",
-                        "name": "Mantenimiento de Comunidades"
+                        "name": "Conservación de Fincas"
                     }
                 }
             ]
@@ -77,8 +77,8 @@ export default function SEOHead() {
 
     return (
         <Helmet>
-            <title>Servicio Técnico Oficial Fermax Valencia | Video Electric | 90 Min</title>
-            <meta name="description" content="¿Avería en tu Fermax? Servicio Técnico Oficial Certificado en Valencia y Picassent. Reparación en el día con repuestos originales. ¡Llama ya! Garantía 5 años." />
+            <title>Asistencia Técnica Fermax Valencia | Video Electric | &lt; 1.5h</title>
+            <meta name="description" content="¿Fallos en tu equipo Fermax? Asistencia Homologada en Valencia y Picassent. Arreglos diarios con piezas genuinas. ¡Contacta ahora! Cobertura 5 años." />
             <link rel="canonical" href="https://videoelectricvalencia.es/" />
             <meta name="robots" content="index, follow" />
             <script type="application/ld+json">

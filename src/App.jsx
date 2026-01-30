@@ -25,9 +25,9 @@ function App() {
                     {/* Simple Contact Footer Section */}
                     <section className="bg-fermax text-white py-16" id="contacto">
                         <div className="container mx-auto px-4 text-center">
-                            <h2 className="text-3xl font-bold mb-8">¿Necesitas Reparación Urgente?</h2>
+                            <h2 className="text-3xl font-bold mb-8">¿Requieres Arreglo Inmediato?</h2>
                             <p className="text-xl mb-8 max-w-2xl mx-auto">
-                                No dejes que una avería comprometa la seguridad de tu hogar o comunidad.
+                                Impide que un fallo afecte la protección de tu vivienda o edificio.
                             </p>
                             <a
                                 href="https://wa.me/34659767258"
@@ -35,7 +35,7 @@ function App() {
                                 rel="noopener noreferrer"
                                 className="inline-block bg-[#25D366] text-white font-bold py-4 px-12 rounded-lg text-lg hover:bg-[#128C7E] transition-colors shadow-lg"
                             >
-                                WhatsApp: 659 76 72 58
+                                Envíanos un WhatsApp: 659 76 72 58
                             </a>
                             <p className="mt-8 text-sm text-gray-400">
                                 Video Electric Valencia S.L.U. - C/ Mestre Ramírez 3, Picassent.
